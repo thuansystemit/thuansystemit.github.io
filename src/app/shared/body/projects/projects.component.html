@@ -1,0 +1,21 @@
+<div class="container">
+    <div class="row">
+        <div class="col-sm-1">&nbsp;</div>
+        <div class="col-sm-9 project-info">{{projectInfo}}</div>
+        <div class="col-sm-1">&nbsp;</div>
+    </div>
+    <div class="row">
+        <div class="col-sm-1">&nbsp;</div>
+        <div class="col-sm-9">
+            <ul class="content">
+                <li *ngFor="let item of projects">
+                    <div class="tooltips">
+                        {{item.value}}
+                        <span class="tooltiptext">{{item.tooltip}}</span>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="col-sm-1">&nbsp;</div>
+    </div>
+</div>

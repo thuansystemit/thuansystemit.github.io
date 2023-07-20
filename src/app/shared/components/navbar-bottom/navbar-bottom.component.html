@@ -1,0 +1,6 @@
+<nav mat-tab-nav-bar>
+  <a class="custom-text-color" mat-tab-link *ngFor="let link of links; index as index"
+     [routerLink]="[link]"
+     (click)="activeLink = link"
+     class="custom-a"> {{titles[index]}} </a>
+</nav> 
