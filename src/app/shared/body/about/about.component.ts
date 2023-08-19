@@ -17,18 +17,21 @@ export class AboutComponent {
   ];
   technicalSkills = [
     {id: 1, value: 'Good knowledge on Object-Oriented Analysis and Design, Object-Oriented software engineering methodologies and design Microservice architecture.'},
-    {id: 2, value: 'Database Management Systems: Mysql, MongoDB'},
-    {id: 3, value: 'Java, Spring, Spring boot, Spring security, spring JPA/Hibernate, JDBC'},
+    {id: 2, value: 'Database Management Systems: Mysql, MongoDB, Postgresql'},
+    {id: 3, value: 'Java, Spring, Spring boot, Spring security, spring JPA/Hibernate, JDBC, R2DBC'},
     {id: 4, value: 'Kafka, Redis'},
     {id: 5, value: 'Unit/integration test: Junit, Robot framework'},
     {id: 6, value: 'EJB, JMS, JMX, Jersey, Rest API, Websocket.'},
     {id: 7, value: 'Javascript: AngularJS, Angular 8, jQuery'},
-    {id: 8, value: 'Script: Shell script, batch script.'},
+    {id: 8, value: 'Script: Shell script, bash script.'},
     {id: 9, value: 'Platforms: Windows, Linux'},
     {id: 10, value: 'WebServer: Tomcat, Apache, Nginx (Configuration load balancing)'},
     {id: 11, value: 'Have knowledge about jBPMN'},
     {id: 12, value: 'Have knowledge about integration with ADFS'},
     {id: 13, value: 'Have knowledge about Linux System'},
     {id: 14, value: 'CD/CI: Docker, docker compose, Jenkins'},
+    {id: 15, value: 'Have knowledge about Microservices, Microservices Patterns'},
+    {id: 16, value: "Tools: Bower, Grunt, Webpack, CommonJs, Node, Angular-CLI"},
+    {id: 17, value: "Source Control: experience in using SVN, Git"}
   ];
 }
