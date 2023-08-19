@@ -7,8 +7,8 @@ import {ThemePalette} from '@angular/material/core';
   encapsulation: ViewEncapsulation.None
 })
 export class NavbarBottomComponent {
-  links = ['skills', 'projects', 'about'];
-  titles = ['Skills', 'Projects', 'About'];
+  links = ['projects', 'about'];
+  titles = ['Projects', 'About'];
   activeLink = this.links[1];
   background: ThemePalette = 'primary';
 }

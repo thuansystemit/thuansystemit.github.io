@@ -7,8 +7,7 @@ import { LoginComponent} from './feature/login/login.component';
 import { PostComponent } from './feature/post/post.component';
 
 const routes: Routes = [
-  { path: 'home', component: SkillsComponent },
-  { path: 'skills', component: SkillsComponent},
+  { path: 'home', component: AboutComponent },
   { path: 'projects', component: ProjectsComponent },
   { path: 'about', component: AboutComponent },
   { path: 'login', component: LoginComponent },
