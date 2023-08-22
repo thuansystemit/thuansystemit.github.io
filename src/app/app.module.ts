@@ -6,7 +6,6 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatListModule } from '@angular/material/list';
 import { MatButtonModule } from '@angular/material/button';
-import { TooltipPosition, MatTooltipModule } from '@angular/material/tooltip';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavbarTopComponent } from './shared/components/navbar-top/navbar-top.component';
@@ -23,6 +22,7 @@ import { FormlyModule} from '@ngx-formly/core';
 import { ReactiveFormsModule } from '@angular/forms';
 import { FormlyBootstrapModule } from '@ngx-formly/bootstrap';
 import { PostComponent } from './feature/post/post.component';
+import { LocationStrategy, PathLocationStrategy } from '@angular/common';
 
 @NgModule({
   declarations: [
@@ -52,7 +52,7 @@ import { PostComponent } from './feature/post/post.component';
     ReactiveFormsModule,
     FormlyBootstrapModule
   ],
-  providers: [],
+  providers: [{ provide: LocationStrategy, useClass: PathLocationStrategy }],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
