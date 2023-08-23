@@ -10,6 +10,7 @@
 .tooltips {
     position: relative;
     display: inline-block;
+    cursor: pointer;
   }
   
   /* Tooltip text */
@@ -36,6 +37,7 @@
   /* Show the tooltip text when you mouse over the tooltip container */
   .tooltips:hover .tooltiptext {
     visibility: visible;
+    
   }
 
   .tooltiptext::before,

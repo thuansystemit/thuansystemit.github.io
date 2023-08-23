@@ -22,7 +22,7 @@ export class AboutComponent {
     {id: 4, value: 'Kafka, Redis'},
     {id: 5, value: 'Unit/integration test: Junit, Robot framework'},
     {id: 6, value: 'EJB, JMS, JMX, Jersey, Rest API, Websocket.'},
-    {id: 7, value: 'Javascript: AngularJS, Angular 8, jQuery'},
+    {id: 7, value: 'Javascript: AngularJS, Angular 8, jQuery , Can work with latest Angular'},
     {id: 8, value: 'Script: Shell script, bash script.'},
     {id: 9, value: 'Platforms: Windows, Linux'},
     {id: 10, value: 'WebServer: Tomcat, Apache, Nginx (Configuration load balancing)'},

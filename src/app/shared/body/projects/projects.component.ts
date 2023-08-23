@@ -14,5 +14,5 @@ export class ProjectsComponent {
     {id: 5, value: 'A chat system', tooltip: "A chat system involves creating a platform that allows real-time communication between users through text messages"},
     {id: 6, value: 'Order and Payment system', tooltip: "Order and Payment System involves creating a software solution that allows customers to place orders for products or services and make payments securely"}
   ];
-  projectInfo = 'I have already implemented many projects as listed below. You can click on an item in the list to see more details, or you can hover over it to access a lot of information about that project.';
+  projectInfo = 'I have implemented the following projects. You can click on an item in the list to see more details, or you can hover over it to see a detailed description of that project.';
 }

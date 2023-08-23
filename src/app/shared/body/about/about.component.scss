@@ -24,7 +24,17 @@
 }
 .technical-hr {
     display: inline-block;
-    width: 63%;
+    width: 67%;
+    height: 3px;
+    background-color: black;
+    margin-left: 10px;
+    vertical-align: middle;
+    background: rgb(0, 140, 251) !important;
+    font-weight: bold;
+}
+.university-hr {
+    display: inline-block;
+    width: 77%;
     height: 3px;
     background-color: black;
     margin-left: 10px;
@@ -41,4 +51,20 @@
 }
 .address {
     font-weight: bold;
+}
+.university {
+    margin-top: 5px !important;
+    font-size: 18px !important;
+    font-weight: bold;
+}
+
+.wrapper-detail-university {
+    margin-top: 5px !important;
+    display: flex;
+    justify-content: space-between; /* Align items with space between them */
+    align-items: center;
+    font-size: 18px !important;
+    .year {
+        font-weight: bold;
+    }
 }
