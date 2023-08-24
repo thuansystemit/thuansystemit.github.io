@@ -21,7 +21,7 @@ const routes: Routes = [
     onSameUrlNavigation: 'reload',
     anchorScrolling: 'enabled',
     enableTracing: false,
-    useHash: false
+    useHash: true
   })],
   exports: [RouterModule]
 })
