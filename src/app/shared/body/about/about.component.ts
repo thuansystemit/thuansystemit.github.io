@@ -7,8 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AboutComponent {
   highlights = [
-    {id: 1, value: '7+ years of experience in enterprise software application development.'},
-    {id: 2, value: '7+ years of experience in developing enterprise applications using Java, JavaScript.'},
+    {id: 1, value: '8+ years of experience in enterprise software application development.'},
+    {id: 2, value: '8+ years of experience in developing enterprise applications using Java, JavaScript.'},
     {id: 3, value: 'Have experience in software designer like OOP, design pattern, microservice architecture.'},
     {id: 4, value: 'Good experience with Agile/Scrum project.'},
     {id: 5, value: 'Ability to work on multiple projects.'},
