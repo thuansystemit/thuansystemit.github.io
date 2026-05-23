@@ -1,0 +1,14 @@
+<div class="education-page">
+  <h2 class="section-title">Education</h2>
+
+  <div class="education-card" *ngFor="let edu of educations">
+    <div class="edu-header">
+      <div class="school-info">
+        <span class="school">{{ edu.school }}</span>
+        <span class="location"> — {{ edu.location }}</span>
+      </div>
+      <span class="period">{{ edu.period }}</span>
+    </div>
+    <p class="degree">{{ edu.degree }}</p>
+  </div>
+</div>

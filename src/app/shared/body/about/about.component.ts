@@ -6,32 +6,23 @@ import { Component } from '@angular/core';
   styleUrls: ['./about.component.scss']
 })
 export class AboutComponent {
-  highlights = [
-    {id: 1, value: '8+ years of experience in enterprise software application development.'},
-    {id: 2, value: '8+ years of experience in developing enterprise applications using Java, JavaScript.'},
-    {id: 3, value: 'Have experience in software designer like OOP, design pattern, microservice architecture.'},
-    {id: 4, value: 'Good experience with Agile/Scrum project.'},
-    {id: 5, value: 'Ability to work on multiple projects.'},
-    {id: 6, value: 'Experience with domain knowledge: networking, healthcare.'},
-    {id: 7, value: 'Fast learner, ability handle multi-tasking, high responsible and friendly with an outgoing personality with the ability to work with all team members.'}
-  ];
-  technicalSkills = [
-    {id: 1, value: 'Good knowledge on Object-Oriented Analysis and Design, Object-Oriented software engineering methodologies and design Microservice architecture.'},
-    {id: 2, value: 'Database Management Systems: Mysql, MongoDB, Postgresql'},
-    {id: 3, value: 'Java, Spring, Spring boot, Spring security, spring JPA/Hibernate, JDBC, R2DBC'},
-    {id: 4, value: 'Kafka, Redis'},
-    {id: 5, value: 'Unit/integration test: Junit, Robot framework'},
-    {id: 6, value: 'EJB, JMS, JMX, Jersey, Rest API, Websocket.'},
-    {id: 7, value: 'Javascript: AngularJS, Angular 8, jQuery , Can work with latest Angular'},
-    {id: 8, value: 'Script: Shell script, bash script.'},
-    {id: 9, value: 'Platforms: Windows, Linux'},
-    {id: 10, value: 'WebServer: Tomcat, Apache, Nginx (Configuration load balancing)'},
-    {id: 11, value: 'Have knowledge about jBPMN'},
-    {id: 12, value: 'Have knowledge about integration with ADFS'},
-    {id: 13, value: 'Have knowledge about Linux System'},
-    {id: 14, value: 'CD/CI: Docker, docker compose, Jenkins'},
-    {id: 15, value: 'Have knowledge about Microservices, Microservices Patterns'},
-    {id: 16, value: "Tools: Bower, Grunt, Webpack, CommonJs, Node, Angular-CLI"},
-    {id: 17, value: "Source Control: experience in using SVN, Git"}
+  experiences = [
+    {
+      title: 'Software Engineer',
+      company: 'TMA Solutions Corp',
+      period: '2016 - Now',
+      highlights: [
+        '10 years of experience in enterprise software application development.',
+        '10 years of experience in developing enterprise applications using Java and JavaScript.',
+        'Experience in software design: OOP, design patterns, microservice architecture.',
+        'Good experience with Agile/Scrum projects.',
+        'Ability to work on multiple projects simultaneously.',
+        'Domain knowledge: networking, healthcare.',
+        'Fast learner, capable of handling multi-tasking, highly responsible, and friendly with an outgoing personality with the ability to work with all team members.',
+        'I have hands-on experience building AI agent workflows using LangChain.',
+        'I have knowledge of Claude for video coding and can define AI agents using Claude to build a project from scratch.',
+        'I have hands-on experience with Claude vibe coding and designing AI agentic workflows to build projects from scratch.'
+      ]
+    }
   ];
 }

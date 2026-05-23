@@ -1,7 +1,11 @@
-<div class="row">
-    <div class="col-sm-2">&nbsp;</div>
-    <div class="col-sm-8">&nbsp;</div>
-    <div class="col-sm-2">
-        <button mat-button class="">Create Post</button>
-    </div>
-</div>>
+<div class="articles-page">
+  <h2 class="section-title">Articles & Knowledge Sharing</h2>
+
+  <ul class="article-list">
+    <li *ngFor="let article of articles" class="article-item">
+      <a [href]="article.url" target="_blank" rel="noopener noreferrer">
+        {{ article.title }}
+      </a>
+    </li>
+  </ul>
+</div>

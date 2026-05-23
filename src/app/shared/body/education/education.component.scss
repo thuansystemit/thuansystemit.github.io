@@ -1,4 +1,4 @@
-.experience-page {
+.education-page {
   padding: 8px 0;
 }
 
@@ -11,33 +11,28 @@
   border-bottom: 2px solid #2d3a6b;
 }
 
-.experience-card {
-  margin-bottom: 32px;
+.education-card {
+  margin-bottom: 24px;
 }
 
-.job-header {
+.edu-header {
   display: flex;
   align-items: baseline;
   justify-content: space-between;
   flex-wrap: wrap;
   gap: 8px;
-  margin-bottom: 12px;
+  margin-bottom: 6px;
 }
 
-.job-title {
-  font-size: 18px;
+.school {
+  font-size: 17px;
   font-weight: bold;
   color: #1a1a1a;
 }
 
-.separator {
+.location {
+  font-size: 15px;
   color: #555;
-}
-
-.company {
-  font-size: 18px;
-  font-weight: 600;
-  color: #2d3a6b;
 }
 
 .period {
@@ -46,14 +41,9 @@
   white-space: nowrap;
 }
 
-.highlights {
-  padding-left: 20px;
+.degree {
+  font-size: 15px;
+  color: #333;
   margin: 0;
-
-  li {
-    font-size: 15px;
-    line-height: 1.7;
-    color: #333;
-    margin-bottom: 6px;
-  }
+  line-height: 1.6;
 }

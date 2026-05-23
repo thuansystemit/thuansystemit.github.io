@@ -1,19 +1,20 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { SkillsComponent} from './shared/body/skills/skills.component';
-import { ProjectsComponent} from './shared/body/projects/projects.component';
-import { AboutComponent} from './shared/body/about/about.component';
-import { LoginComponent} from './feature/login/login.component';
+import { HomeComponent } from './feature/home/home.component';
+import { AboutComponent } from './shared/body/about/about.component';
+import { SkillsComponent } from './shared/body/skills/skills.component';
+import { EducationComponent } from './shared/body/education/education.component';
 import { PostComponent } from './feature/post/post.component';
+import { LoginComponent } from './feature/login/login.component';
 
 const routes: Routes = [
-  { path: 'home', component: AboutComponent },
-  { path: 'projects', component: ProjectsComponent },
-  { path: 'about', component: AboutComponent },
+  { path: 'home', component: HomeComponent },
+  { path: 'experience', component: AboutComponent },
+  { path: 'skills', component: SkillsComponent },
+  { path: 'education', component: EducationComponent },
+  { path: 'articles', component: PostComponent },
   { path: 'login', component: LoginComponent },
-  { path: 'post', component: PostComponent },
   { path: '', redirectTo: 'home', pathMatch: 'full' }
-  // { path: '**', component: ErrorComponent }
 ];
 
 @NgModule({
